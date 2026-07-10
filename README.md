@@ -1,16 +1,21 @@
-## Hi there 👋
+### Hi, I'm Aditya Kadam
 
-<!--
-**iam-adityakadam/iam-adityakadam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Linux Administrator (5 yrs) → Cloud DevOps (in progress)**
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Currently Learning
+- **AWS** — IAM, EC2, S3, VPC
+- **Terraform** — Infrastructure as Code
+- **Docker & Kubernetes**
+- **GitLab CI/CD**
+
+#### Current Toolkit
+- Linux (RHEL, Ubuntu) — sysadmin, shell scripting, networking
+- Git & GitLab
+- Bash scripting
+
+#### 2026 Goals
+- Land a Cloud DevOps Engineer role
+- AWS Certified Solutions Architect
+- Build production-grade portfolio projects
