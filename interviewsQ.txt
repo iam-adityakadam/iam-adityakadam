@@ -1,0 +1,76 @@
+Basics / Boot Process
+
+Explain the Linux boot process from power-on to login prompt (BIOS/UEFI → GRUB → kernel → init/systemd).
+What's the difference between BIOS and UEFI?
+What are runlevels / systemd targets? How do you check and change the current one?
+What happens if GRUB is corrupted? How would you fix it?
+systemd / Services
+5. How do you check, start, stop, enable, and disable a service using systemctl?
+6. How do you check why a service failed to start?
+7. What's the difference between systemctl restart and systemctl reload?
+8. What is a systemd unit file? Name a few types (service, socket, timer, mount).
+9. How do you create a custom systemd service?
+
+File System / Storage
+10. Explain the Linux directory structure (/etc, /var, /opt, /proc, /dev, etc.).
+11. What is an inode? What happens when you run out of inodes vs. disk space?
+12. Difference between hard link and symbolic link?
+13. How do you check disk usage and find large files/directories?
+14. What is LVM? Explain PV, VG, LV.
+15. How do you extend a logical volume and its filesystem online?
+16. What's the difference between ext4 and XFS?
+17. How do you check and repair a filesystem (fsck)?
+18. What is /etc/fstab and what happens if an entry is wrong?
+
+Permissions / Security
+19. Explain Linux file permissions (rwx, numeric notation) and ownership.
+20. What are SUID, SGID, and sticky bit? Give a real-world example of each.
+21. What is umask and how does it affect default permissions?
+22. What is SELinux/AppArmor? Difference between enforcing, permissive, and disabled modes?
+23. How do you troubleshoot a "permission denied" issue that looks correct on the surface (hint: SELinux context)?
+24. How do you harden SSH access on a server?
+25. What is sudo vs su? How do you configure /etc/sudoers safely?
+
+Networking
+26. How do you check open ports and listening services (ss, netstat)?
+27. Explain the difference between TCP and UDP.
+28. How would you troubleshoot "server is unreachable"? Walk through your steps.
+29. What is DNS resolution order on a Linux box (/etc/nsswitch.conf, /etc/resolv.conf)?
+30. How do you configure a static IP on RHEL/Debian-based systems?
+31. What is the purpose of iptables/nftables/firewalld?
+32. Explain the difference between a routing table and default gateway.
+
+Process / Performance
+33. How do you find which process is consuming the most CPU/memory?
+34. Difference between top, htop, and ps aux?
+35. What's a zombie process vs an orphan process?
+36. How do you kill a process that doesn't respond to kill -9?
+37. Explain load average — what do the three numbers mean?
+38. How would you troubleshoot a server that's suddenly slow?
+39. What's the difference between swap and RAM, and when is high swap usage a problem?
+
+Package Management / Patching
+40. Difference between yum/dnf and apt?
+41. How do you check what package provides a given file/command?
+42. How do you roll back a bad kernel update?
+
+Logs / Troubleshooting
+43. Where are system logs stored? Difference between /var/log/messages, journalctl, and dmesg?
+44. How do you use journalctl to check logs for a specific service or time range?
+45. A user says "the server rebooted unexpectedly" — how do you investigate?
+46. How do you set up log rotation (logrotate)?
+
+Scripting / Automation
+47. Write a shell script to find files older than 30 days and delete them.
+48. How do you schedule a recurring job with cron? Explain crontab syntax.
+49. Difference between cron and systemd timers?
+50. How do you write a script to monitor disk usage and send an alert if it exceeds 90%?
+
+Scenario-Based
+51. Root partition is full — walk me through how you diagnose and fix it live.
+52. A server won't boot after a kernel update — what's your recovery process?
+53. You're asked to add 50 users with specific group permissions via script — how do you approach it?
+54. Two servers can't communicate over port 443 — troubleshoot step by step.
+55. How do you securely copy SSH keys for passwordless authentication, and what's the risk if misconfigured?
+
+Want me to go through answers/model responses for any of these, or turn a subset into a timed mock interview?
